@@ -1,0 +1,49 @@
+/* styles/banner.css */
+
+/* Estilo do banner */
+.banner {
+    background: blue; /* Cor de fundo do banner */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 2.5em 2em; /* Espaçamento interno */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+/* Título do banner */
+.banner_titulo {
+    font-weight: 700; /* Negrito */
+    font-size: 1.125rem; /* 18px */
+    margin: 0 0 1em; /* Margem inferior */
+    color: white; /* Cor do título */
+}
+
+/* Texto do banner */
+.banner_texto {
+    font-weight: 500; /* Semi-negrito */
+    font-size: 1rem; /* 16px */
+    margin: 0 0 1em; /* Margem inferior */
+    color: white; /* Cor do texto */
+}
+
+/* Caixa de pesquisa */
+.banner_pesquisa {
+    background-color: transparent; /* Fundo transparente */
+    border: 1px solid white; /* Borda branca */
+    color: white; /* Cor do texto */
+    border-radius: 24px; /* Borda arredondada */
+    padding: 0.75em 1em; /* Espaçamento interno */
+    width: 100%; /* Largura total */
+    font-size: 1rem; /* 16px */
+    font-weight: 400; /* Peso da fonte normal */
+}
+
+/* Estilo do placeholder da caixa de pesquisa */
+.banner_pesquisa::placeholder {
+    font-family: var(--fonte-principal); /* Fonte do placeholder */
+    font-size: 0.875rem; /* 14px */
+    font-weight: 400; /* Peso da fonte normal */
+    color: var(--branco); /* Cor do texto do placeholder */
+    background: url("../assets/Vector\ \(3\).svg") no-repeat; /* Ícone de fundo */
+    background-position: 1em center; /* Posição do ícone */
+    text-align: center; /* Alinha o texto ao centro */
+}
